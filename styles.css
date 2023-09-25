@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   display: grid;
   grid-template-columns: 1fr 4.75fr;
@@ -13,6 +18,8 @@
 
 .sidebar {
   grid-area: sidebar;
+
+  background-color: rgb(69, 144, 206);
 }
 
 .header {
