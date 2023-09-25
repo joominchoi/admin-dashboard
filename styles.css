@@ -1,3 +1,8 @@
+@font-face {
+  font-family: roboto-bold;
+  src: url(fonts/Roboto-Bold.ttf);
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -19,7 +24,34 @@
 .sidebar {
   grid-area: sidebar;
 
-  background-color: rgb(69, 144, 206);
+  display: grid;
+  grid-template-columns: 25% auto;
+  grid-template-rows: 8% repeat(9, 5%) ;
+  /* align-items: center; */
+
+  background-color: rgb(26, 146, 211);
+  font-family: roboto-bold;
+  color: white;
+}
+
+.sidebar-icon,
+.sidebar-link {
+  display: flex;
+  align-items: center;
+}
+
+.sidebar-icon {
+  justify-content: center;
+}
+
+#dashboard-link {
+  font-size: 30px;
+}
+
+.sidebar-link {
+  justify-items: start;
+
+  font-size: 20px;
 }
 
 .header {
