@@ -13,6 +13,7 @@ disappear (set to 0x0) previously when I was adding the icons one by one?
 
 ## Learnings
 - Use position:relative to 'overlap' elements
+- The box-sizing property allows us to include the padding and border in an element's total width and height.
 
 ## Recapping
 - Use of minmax(x, y) where x is the minimum size and y is the maximum size

@@ -101,11 +101,25 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
 
+  box-sizing: border-box;
+
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 10px;
+
   gap: 30px;
 }
 
 .announcements-trending {
   display: grid;
+
+  box-sizing: border-box;
+
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 30px;
 
   gap: 30px;
 }
