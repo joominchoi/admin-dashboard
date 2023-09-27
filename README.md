@@ -12,7 +12,7 @@ property. Was it because they exceeded the size of the given grid? If so, why di
 disappear (set to 0x0) previously when I was adding the icons one by one?
 
 ## Learnings
-
+- Use position:relative to 'overlap' elements
 
 ## Recapping
 - Use of minmax(x, y) where x is the minimum size and y is the maximum size
