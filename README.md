@@ -15,3 +15,4 @@ disappear (set to 0x0) previously when I was adding the icons one by one?
 
 
 ## Recapping
+- Use of minmax(x, y) where x is the minimum size and y is the maximum size
