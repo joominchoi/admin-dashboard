@@ -80,11 +80,15 @@
 .header-section-one {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+
+  border-style: solid;
 }
 
 .header-section-two {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
+
+  border-style: solid;
 }
 
 .main-content {
