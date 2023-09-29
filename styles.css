@@ -112,6 +112,9 @@
 }
 
 #search-bar input[type=text]:hover {
+  width: 85.5%;
+  height: 41px;
+
   cursor: pointer;
   background-color: rgb(216, 225, 237);
 }
