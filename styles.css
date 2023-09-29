@@ -75,18 +75,40 @@
 
   display: grid;
   grid-template-rows: 43% auto;
+  
+  box-sizing: border-box;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .header-section-one {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: 6% 53% 6% 6% auto;
+
+}
+
+.header-section-one div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   border-style: solid;
 }
 
+.header-section-one img {
+  width: 35%;
+  height:35%;
+}
+
 .header-section-two {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: 12.5% 50% 12.5% 12.5% 12.5%;
+}
+
+.header-section-two div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   border-style: solid;
 }
