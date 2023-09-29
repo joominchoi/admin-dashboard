@@ -75,7 +75,7 @@
 
   display: grid;
   grid-template-rows: 43% auto;
-  
+
   box-sizing: border-box;
   padding-left: 30px;
   padding-right: 30px;
@@ -97,7 +97,26 @@
 
 .header-section-one img {
   width: 35%;
-  height:35%;
+  height: 35%;
+}
+
+#search-bar input[type=text] {
+  width: 90%;
+  height: 40px;
+
+  border: 0;
+  background-color: rgb(226, 232, 240);
+  padding-left: 10px;
+  border-radius: 99em;
+}
+
+#search-bar input[type=text]:hover {
+  cursor: pointer;
+  background-color: rgb(216, 225, 237);
+}
+
+#search-bar input[type=text]:focus {
+  outline-color: rgb(216, 226, 237)
 }
 
 .header-section-two {
