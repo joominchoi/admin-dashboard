@@ -79,17 +79,18 @@
   box-sizing: border-box;
   padding-left: 30px;
   padding-right: 30px;
+
+  font-family: roboto-bold;
 }
 
 .header-section-one {
   display: grid;
-  grid-template-columns: 6% 53% 6% 6% auto;
+  grid-template-columns: 6% 56% 6% 6% auto;
 
 }
 
 .header-section-one div {
   display: flex;
-  justify-content: center;
   align-items: center;
 
   border-style: solid;
@@ -101,7 +102,7 @@
 }
 
 #search-bar input[type=text] {
-  width: 90%;
+  width: 85%;
   height: 40px;
 
   border: 0;
@@ -126,10 +127,22 @@
 
 .header-section-two div {
   display: flex;
-  justify-content: center;
   align-items: center;
 
   border-style: solid;
+}
+
+.greeting {
+  flex-direction: column;
+}
+
+#line-one {
+  align-items: end;
+}
+
+#line-two {
+  align-items: start;
+  font-size: 25px;
 }
 
 .main-content {
