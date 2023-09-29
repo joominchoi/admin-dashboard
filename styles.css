@@ -145,6 +145,37 @@
   font-size: 25px;
 }
 
+.buttons {
+  justify-content: center;
+}
+
+.buttons button {
+  width: 120px;
+  height: 45px;
+  border: none;
+  background-color: rgb(26, 146, 211);
+  border-radius: 30px;
+
+
+  font-family: roboto-bold;
+  font-size: 20px;
+  color: white;
+
+  cursor: pointer;
+}
+
+.buttons button:hover {
+  width: 122px;
+  height: 47px;
+
+  background-color: rgb(25, 128, 184);
+}
+
+.buttons button:active {
+  width: 120px;
+  height: 45px;
+}
+
 .main-content {
   grid-area: main-content;
 
