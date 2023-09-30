@@ -64,6 +64,16 @@
 .sidebar-link {
   justify-items: start;
 
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.sidebar-link:hover {
+  font-size: 21px;
+}
+
+.sidebar-link:focus {
   font-size: 20px;
 }
 
