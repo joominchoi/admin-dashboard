@@ -204,6 +204,14 @@
   background-color: rgb(226, 232, 240);
 }
 
+.card {
+  /* border-style: solid; */
+  background-color: white;
+
+  border-radius: 10px;
+  box-shadow: 4px 4px 10px #0000002b;
+}
+
 .projects {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -213,7 +221,7 @@
 
   padding-bottom: 30px;
   padding-left: 30px;
-  padding-right: 10px;
+  padding-right: 15px;
 
   gap: 30px;
 }
@@ -237,7 +245,7 @@
   box-sizing: border-box;
 
   padding-bottom: 30px;
-  padding-left: 10px;
+  padding-left: 15px;
   padding-right: 30px;
 
   gap: 30px;
@@ -251,9 +259,4 @@
   font-size: 25px;
 
   padding-top: 25px;
-}
-
-.card {
-  border-style: solid;
-  background-color: white;
 }
