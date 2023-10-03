@@ -326,9 +326,8 @@
   text-align: left;
 
   box-sizing: border-box;
-  /* padding-top: 10px; */
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 #announcement-one, 
@@ -359,4 +358,33 @@
   font-size: 13px;
 
   height: auto;
+}
+
+.trending-content {
+  display: flex;
+}
+
+.trending-content div {
+  display: flex;
+}
+
+.profile-picture {
+  align-items: center;
+}
+
+.user-info {
+  flex-direction: column;
+  justify-content: center;
+
+  font-family: roboto-regular;
+}
+
+.username {
+  height: auto;
+  align-items: end;
+}
+
+.name {
+  height: auto;
+  color: gray;
 }
