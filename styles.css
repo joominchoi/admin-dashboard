@@ -285,6 +285,11 @@
   height: 25px;
 }
 
+.action-buttons img:hover {
+  cursor: pointer;
+  transform: translateY(-1px);
+}
+
 .announcements-trending {
   display: grid;
   grid-template-rows: 30px 1fr 30px 1fr;
