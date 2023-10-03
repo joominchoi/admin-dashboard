@@ -34,7 +34,7 @@
 
   display: grid;
   grid-template-columns: 25% auto;
-  grid-template-rows: 8% repeat(9, 5%) auto;
+  grid-template-rows: 8% repeat(10, 5%) auto;
 
   background-color: rgb(26, 146, 211);
   font-family: roboto-bold;
