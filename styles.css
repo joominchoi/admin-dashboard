@@ -204,8 +204,8 @@
   background-color: rgb(226, 232, 240);
 }
 
+.projects-card,
 .card {
-  /* border-style: solid; */
   background-color: white;
 
   border-radius: 10px;
@@ -236,6 +236,10 @@
   font-size: 25px;
 
   padding-top: 25px;
+}
+
+.projects-card {
+  border-left: 10px solid rgb(240, 180, 42);
 }
 
 .announcements-trending {
