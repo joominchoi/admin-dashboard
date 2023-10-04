@@ -309,6 +309,11 @@
   transform: translateY(-1px);
 }
 
+.action-buttons img:active {
+  cursor: pointer;
+  transform: translateY(1px);
+}
+
 .announcements-trending {
   display: grid;
   grid-template-rows: 30px 1fr 30px 1fr;
@@ -383,7 +388,6 @@
 }
 
 .trending-pp {
-  /* justify-content: end; */
   align-items: center;
 }
 
